@@ -147,25 +147,23 @@
             <h1>Поиск гостиницы в Седоне</h1>
         <form action="" method="post">
             <div class="half-width">
-                <label for="date">Дата заезда</label>
-                <input type="date" name="date">
+                <label for="arriving_day">Дата заезда</label>
+                <input type="date" name="date" id="arriving_day">
             </div>
             <div class="half-width">
-                <label for="date">Дата выезда</label>
-                <input type="date" name="date">
+                <label for="leaving_day">Дата выезда</label>
+                <input type="date" name="date" id="leaving_day">
             </div>
             <div class="half-width">
-                <label for="amount">Взрослые:</label>
-                <input type="number" name="amount" id="amount" min="1" max="50" step="1">
+                <label for="amount_adults">Взрослые:</label>
+                <input type="number" name="amount" id="amount_adults" min="1" max="50" step="1">
             </div>
             <div class="half-width">
-                <label for="amount">Дети:</label>
-                <input type="number" name="amount" id="amount" min="1" max="50" step="1">
+                <label for="amount_adults">Дети:</label>
+                <input type="number" name="amount" id="amount_child" min="1" max="50" step="1">
             </div>
-            <div class="buttons">
-                <input type="submit" value="Найти">
-        </div>
-    </form>
+                <button type="submit">Найти</button>
+        </form>
       </div>
   </body>
 </html>
