@@ -34,4 +34,38 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  color: black;
+  background-color: white;
+}
+
+.page-header {
+  color: black;
+  background-color: white;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.main-index {
+  background-image: url("../images/index_main/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+h1 {
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blue_square {
+  background-color: #82B3D3;
 }
