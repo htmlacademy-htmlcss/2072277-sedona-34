@@ -38,6 +38,43 @@ body {
   background-color: white;
 }
 
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe .button {
+  border: 0px;
+  background-color: #82B3D3;
+  margin-left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.subscribe .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-social a {
+  background-color: white;
+}
+
 .page-header {
   color: black;
   background-color: white;
@@ -48,11 +85,11 @@ body {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
+  vertical-align: top;
   color: black;
   background-color: white;
   text-decoration: none;
-
 }
 
 .main-index {
@@ -71,40 +108,72 @@ h1 {
 }
 
 .main-index p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  vertical-align: top;
 }
 
 .advantages p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  vertical-align: top;
 }
 
-.advantages h2 {
-  font-weight: 700px;
+.advantages h3 {
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  vertical-align: top;
 }
 
 .hotel-search h2 {
-  font-weight: 400px;
+  font-weight: 700;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
+  vertical-align: top;
 }
 
 .hotel-search p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  vertical-align: top;
+}
+
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  /* color: white; */
+}
+
+.subscribe p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.phone-title {
+  font-family: "PT Sans";
+  font-style: regular;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: black;
 }
 
 
