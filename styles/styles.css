@@ -34,9 +34,50 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
   color: black;
   background-color: white;
+  width: 1280px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
+
+/* .container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+} */
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blue_square {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #82B3D3;
+  width: 400px;
+  height: 384px;
+}
+
+.image {
+  width: 800px;
+  height: 384px;
+}
+
+.image-first {
+  grid-column: 2 / 4;
+}
+
+
 
 .button {
   font-family: inherit;
@@ -48,17 +89,14 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .subscribe .button {
   border: 0px;
   background-color: #82B3D3;
   margin-left: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-
+  padding: 12px 15px;
 }
 
 .subscribe .title {
@@ -67,12 +105,11 @@ body {
   line-height: 36px;
 }
 
-a {
+.product-list a,
+.page-footer a,
+.footer-social a,
+.pagination a {
   text-decoration: none;
-}
-
-.footer-social a {
-  background-color: white;
 }
 
 .page-header {
@@ -86,7 +123,6 @@ a {
   line-height: 26px;
   font-weight: 700;
   text-align: left;
-  vertical-align: top;
   color: black;
   background-color: white;
   text-decoration: none;
@@ -98,29 +134,33 @@ a {
   background-repeat: no-repeat;
 }
 
-h1 {
+.main-index h1 {
   font-size: 30px;
-  font-style: bold;
+  font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  vertical-align: top;
 }
 
 .main-index p {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  vertical-align: top;
+}
+
+.blue_square p {
+  color: white;
+}
+
+.blue_square h3 {
+  color: white;
 }
 
 .advantages p {
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
   text-align: center;
-  vertical-align: top;
 }
 
 .advantages h3 {
@@ -129,7 +169,6 @@ h1 {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: top;
 }
 
 .hotel-search h2 {
@@ -138,15 +177,12 @@ h1 {
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: top;
 }
 
 .hotel-search p {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  vertical-align: top;
 }
 
 .subscribe h2 {
@@ -155,28 +191,21 @@ h1 {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: top;
   /* color: white; */
 }
 
 .subscribe p {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  vertical-align: top;
+  /* color: white; */
 }
 
 .phone-title {
-  font-family: "PT Sans";
-  font-style: regular;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   color: black;
 }
 
 
-.blue_square {
-  background-color: #82B3D3;
-}
+
