@@ -467,6 +467,7 @@ body {
   margin: 0;
   padding: 0;
   padding-left: 70px;
+  margin-top: 10px;
   list-style-type: none;
 }
 
@@ -488,10 +489,12 @@ body {
   color: white;
   width: 1059,53px;
   height: 149px;
+  margin: 0;
+  padding: 0;
   margin-left: 70px;
   margin-right: 70px;
   padding-bottom: 70px;
-
+  margin-top: 40px;
 }
 
 .catalog-filter-list {
@@ -511,27 +514,42 @@ body {
   border-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+
 }
 
 .filter-radios {
   border-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  /* padding-right: 176px; */
 }
 
-.catalog-filter-item {
-  margin: 0;
-  padding: 0;
+.catalog-filter-item-swim,
+.catalog-filter-item-hotel {
+  margin-top: 30px;
 }
 
-.price {
+.catalog-filter-item-parking,
+.catalog-filter-item-motel,
+.catalog-filter-item-wifi,
+.catalog-filter-item-apartments {
+  margin-top: 15px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-top: 32px;
+  background-color: #FFFFFF;;
+}
+
+
+
+.catalog-filter-button {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
 }
 
 .button-price {
@@ -551,7 +569,6 @@ body {
   text-transform: uppercase;
   background-color: #82B3D3;
   cursor: pointer;
-
 }
 
 .button-reset {
@@ -569,26 +586,9 @@ body {
   background-color: transparent;
 }
 
-.catalog-filter-button {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  margin-top: 40px;
-}
-
-.border-case {
-  box-sizing: border-box;
-  border: 2px solid #FFFFFF;
-  border-radius: 4px;
-}
 
 
-.price-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 
 
 
