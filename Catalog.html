@@ -26,21 +26,21 @@
             <ul class="navigation-list">
               <li class="navigation-item">
                 <a class="navigation-link" href="#">
-                  <span class="visually-hidden">
+                  <span class="header-visually-hidden">
                     <img src="images/header/search.svg" width="18.05" height="18.1" alt="Поиск">
                   </span>
                 </a>
               </li>
               <li class="navigation-item">
                 <a class="navigation-link" href="#">
-                  <span class="visually-hidden">
+                  <span class="header-visually-hidden">
                     <img src="images/header/favorite.svg" width="18.05" height="17" alt="Избранное">
                   </span>
                 </a>
               </li>
               <li class="navigation-item">
                 <a class="navigation-link" href="#">
-                  <span class="visually-hidden">
+                  <span class="header-button-visually-hidden">
                   Хочу сюда!
                   </span>
                 </a>
@@ -123,12 +123,12 @@
                       </label>
                     </div>
                     <div class="range-scale">
-                      <div class="range-bar" style="left: 228px; width: 61px">
+                      <div class="range-bar" style="left: 61px; width: 228px">
                         <button class="range-toggle toggle-min">
-                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                          <!-- <span class="visually-hidden">Изменить минимальную цену.</span> -->
                         </button>
                         <button class="range-toggle toggle-max">
-                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                          <!-- <span class="visually-hidden">Изменить максимальную цену.</span> -->
                         </button>
                       </div>
                     </div>
@@ -148,26 +148,22 @@
 
 
       <div class="sorting-container">
-        <h2 class="catalog ">Найдено гостиниц: 38</h2>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-        </select>
-        <a class="button icon-table" href="#">
-          <span class="visually-hidden">
-            <img src="images/catalog/icon-table.svg" width="16" height="14" alt="Показать в виде таблицы">
-          </span>
+        <h2 class="catalog-title">Найдено гостиниц: 38</h2>
+        <div class="select-wrapper">
+          <select class="select-control-sorting" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+        </div>
+        <a href="#" class="button icon-table">
+          <span class="visually-hidden">Показать в виде таблицы</span>
         </a>
-        <a class="button icon-slideshow" href="#">
-          <span class="visually-hidden">
-            <img src="images/catalog/icon-slideshow.svg" width="16" height="14" alt="Показать в виде слайд шоу">
-          </span>
+        <a  href="#" class="button icon-slideshow">
+          <span class="visually-hidden">Показать в виде слайд шоу</span>
         </a>
-        <a class="button icon-list" href="#">
-          <span class="visually-hidden">
-            <img src="images/catalog/icon-list.svg" width="16" height="14" alt="Показать в списка">
-          </span>
+        <a href="#" class="button icon-list">
+          <span class="visually-hidden">Показать в списка</span>
         </a>
       </div>
       <section class="catalog-hotels">
@@ -240,7 +236,7 @@
             </li>
           </ul>
           <p>Гостиниц на странице:</p>
-          <select class="select-control" aria-label="Сортировка">
+          <select class="select-control-pagination" aria-label="Сортировка">
             <option value="one">1</option>
             <option value="two">2</option>
             <option value="three">3</option>
@@ -249,12 +245,12 @@
         </div>
       <section class="catalog-subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-        <p class="subscribe-discription">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="subscribe-discription">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
           <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">
-            <span class="visually-hidden">Подписаться</span>
+            <span class="subscribe-title-button">Подписаться</span>
           </button>
         </form>
       </section>
@@ -265,21 +261,21 @@
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">
+                <span class="footer-visually-hidden">
                   <img src="images/footer/vk.svg" widht="24" height="14" alt="ВКонтакте">
                 </span>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">
+                <span class="footer-visually-hidden">
                   <img src="images/footer/telegram.svg" width="24" height="14" alt="Телеграм">
                 </span>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">
+                <span class="footer-visually-hidden">
                   <img src="images/footer/youtube.svg" width="24" height="14" alt="Ютуб">
                 </span>
               </a>
