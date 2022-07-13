@@ -22,8 +22,8 @@
                   <a class="navigation-link" href="catalog.html">Гостиницы</a>
                 </li>
               </ul>
-              <ul class="navigation-list navigation-user">
-                <li class="navigation-item">
+              <ul class="navigation-user">
+                <li class="navigation-item-user">
                   <a class="navigation-link" href="#">
                     <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M14.0521 13.0446L13.7832 13.3931L14.095 13.704L17.4624 17.062L16.7422 17.8315L13.3971 14.4959L13.0839 14.1836L12.7357 14.4564C11.4185 15.4884 9.82193 16.05 8.13013 16.05C3.99244 16.05 0.607422 12.6725 0.607422 8.54995C0.607422 4.41935 4.00048 0.949951 8.13013 0.949951C12.2678 0.949951 15.6528 4.32743 15.6528 8.44995C15.6528 10.225 14.9968 11.8199 14.0521 13.0446ZM1.6131 8.54995C1.6131 12.1274 4.54596 15.05 8.13013 15.05C11.7143 15.05 14.6472 12.1274 14.6472 8.54995C14.6472 4.97247 11.7143 2.04995 8.13013 2.04995C4.54596 2.04995 1.6131 4.97247 1.6131 8.54995Z" stroke="black"/>
@@ -33,7 +33,7 @@
                     <span class="visually-hidden">Поиск</span>
                   </a>
                 </li>
-                <li class="navigation-item">
+                <li class="navigation-item-user">
                   <a class="navigation-link" href="#">
                     <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9.57663 17C9.27578 17 8.97493 16.9 8.77436 16.6C3.35903 10.5 2.05534 9.1 1.75449 8.7C1.0525 7.8 0.651367 6.6 0.651367 5.4C0.651367 2.4 3.05818 0 6.16698 0C7.47067 0 8.67407 0.5 9.67691 1.3C10.6797 0.5 11.9834 0 13.1868 0C16.1954 0 18.7025 2.4 18.7025 5.4C18.7025 6.7 18.201 7.9 17.3988 8.8L10.3789 16.7C10.1783 16.9 9.97776 17 9.57663 17ZM3.5596 7.5C3.86045 7.9 7.06953 11.5 9.67691 14.4L15.8945 7.4C16.3959 6.9 16.5965 6.2 16.5965 5.4C16.5965 3.6 15.0922 2.1 13.2871 2.1C12.2843 2.1 11.2815 2.6 10.5795 3.4C10.2786 3.7 9.97776 3.8 9.67691 3.8C9.37606 3.8 9.07521 3.6 8.87464 3.4C8.17265 2.6 7.16982 2.1 6.16698 2.1C4.36187 2.1 2.85761 3.6 2.85761 5.4C2.75733 6.3 3.15846 7 3.5596 7.5C3.45931 7.5 3.45931 7.5 3.5596 7.5Z" fill="black"/>
@@ -41,10 +41,11 @@
                     <span class="visually-hidden">Избранное</span>
                   </a>
                 </li>
-                <li class="navigation-item">
+                <li class="navigation-item-user">
                   <a class="button-header" href="#">Хочу сюда!</a>
                 </li>
               </ul>
+              <!-- <a class="button-header" href="#">Хочу сюда!</a> -->
           </nav>
         </header>
       <main class="main-container main-index">
@@ -65,7 +66,7 @@
             <img class="image-first" src="images/index_main/photo-1.jpg" width="800" height="384" alt="Вид на город Седона">
             <div class="house">
               <div class="advantages-basic-title">
-                <h3 class="advantages-title">Жильё</h3>
+                <h3 class="advantages-title title-1">Жильё</h3>
                 <p class="advantages-discription">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </div>
             </div>
@@ -77,47 +78,52 @@
             </div>
             <div class="souvenirs">
               <div class="advantages-basic-title">
-              <h3 class="advantages-title">Сувениры</h3>
-              <p class="advantages-discription">Не только китайского, но и настоящего местного производства!</p>
+                <h3 class="advantages-title">Сувениры</h3>
+                <p class="advantages-discription">Не только китайского, но и настоящего местного производства!</p>
               </div>
             </div>
             <img class="image-second" src="images/index_main/photo-2.jpg" width="800" height="384" alt="Мост дьявола">
             <div class="blue_square-2">
               <div class="advantages-basic-title">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
+                <h3 class="advantages-title">Там есть <br>мост дьявола</h3>
                 <p class="advantages-discription">— №2 —</p>
                 <p class="advantages-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </div>
             <div class="small_area">
-              <h3 class="advantages-title">Небольшая площадь</h3>
-              <p class="advantages-discription">— №3 —</p>
-              <p class="advantages-discription">Все достопримечательности находятся очень близко</p>
+              <div class="advantages-basic-title">
+                <h3 class="advantages-title">Небольшая площадь</h3>
+                <p class="advantages-discription">— №3 —</p>
+                <p class="advantages-discription">Все достопримечательности находятся очень близко</p>
+              </div>
             </div>
             <div class="beautiful_road">
-              <h3 class="advantages-title">Красивая дорога</h3>
-              <p class="advantages-discription">— №4 —</p>
-              <p class="advantages-discription">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              <div class="advantages-basic-title">
+                <h3 class="advantages-title">Красивая <br>дорога</h3>
+                <p class="advantages-discription">— №4 —</p>
+                <p class="advantages-discription">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </div>
             </div>
             <div class="few_tourists">
-              <h3 class="advantages-title">Мало туристов</h3>
-              <p class="advantages-discription">— №5 —</p>
-              <p class="advantages-discription">Большинство едет в Гранд Каньон и толпится там</p>
+              <div class="advantages-basic-title">
+                <h3 class="advantages-title">Мало <br>туристов</h3>
+                <p class="advantages-discription">— №5 —</p>
+                <p class="advantages-discription">Большинство едет в Гранд Каньон и толпится там</p>
+              </div>
             </div>
           </div>
         </section>
         <section class="hotel-search">
           <h2 class="hotel-search-title">Заинтересовались?</h2>
-          <p class="hotel-search-discription">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="button hotel-search-button" href="#">Поиск гостиницы в Седоне</a>
+          <p class="hotel-search-discription">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <a class="hotel-search-button" href="#">Поиск гостиницы в Седоне</a>
         </section>
         <section class="index-subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-discription-index">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
-            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="button newsletter-button" type="submit">Подписаться</button>
+            <input class="field-newsletter" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="newsletter-button" type="submit">Подписаться</button>
           </form>
         </section>
       </main>
@@ -126,21 +132,21 @@
           <section class="footer-social">
             <ul class="footer-social-list">
               <li class="footer-social-item">
-                <a class="button" href="https://vk.com/htmlacademy">
+                <a class="button" href="https://vk.com/htmlacademy" target="_blank">
                   <span class="footer-visually-hidden">
                     <img src="images/footer/vk.svg" widht="24" height="14" alt="ВКонтакте">
                   </span>
                 </a>
               </li>
               <li class="footer-social-item">
-                <a class="button" href="https://t.me/htmlacademy">
+                <a class="button" href="https://t.me/htmlacademy" target="_blank">
                   <span class="footer-visually-hidden">
                     <img src="images/footer/telegram.svg" width="24" height="14" alt="Телеграм">
                   </span>
                 </a>
               </li>
               <li class="footer-social-item">
-                <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                <a class="button" href="https://www.youtube.com/user/htmlacademyru" target="_blank">
                   <span class="footer-visually-hidden">
                     <img src="images/footer/youtube.svg" width="24" height="14" alt="Ютуб">
                   </span>
@@ -154,33 +160,40 @@
             </a>
           </div>
           <div class="footer-logo">
-            <a class="hnmlacademy-link" href="https://htmlacademy.ru/">
+            <a class="hnmlacademy-link" href="https://htmlacademy.ru/" target="_blank">
               <img class="footer-contacts-logo" src="images/footer/html_academy_logo.svg" width="114.9" height="32.9" alt="Логотип сайта «htmlacademy.">
             </a>
           </div>
         </div>
       </footer>
-      <div class="modal">
-            <h1>Поиск гостиницы в Седоне</h1>
-        <form action="" method="post">
-            <div class="half-width">
-                <label for="arriving_day">Дата заезда</label>
-                <input type="date" name="date" id="arriving_day">
-            </div>
-            <div class="half-width">
-                <label for="leaving_day">Дата выезда</label>
-                <input type="date" name="date" id="leaving_day">
-            </div>
-            <div class="half-width">
-                <label for="amount_adults">Взрослые:</label>
-                <input type="number" name="amount" id="amount_adults" min="1" max="50" step="1">
-            </div>
-            <div class="half-width">
-                <label for="amount_adults">Дети:</label>
-                <input type="number" name="amount" id="amount_child" min="1" max="50" step="1">
-            </div>
-                <button type="submit">Найти</button>
-        </form>
+      <div class="modal-container modal-container-close">
+        <div class="modal modal-auth">
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section class="modal-content">
+            <h1 class="modal-title">Поиск гостиницы в Седоне</h1>
+            <form class="auth-form" action="" method="post">
+              <div class="form-box arriving-date">
+                <label class="form-title" for="arriving-day">Дата Заезда</label>
+                <input class="field field-date" type="text" name="date" id="arriving-day" placeholder="Введите дату заезда">
+              </div>
+              <div class="form-box leaving-date">
+                <label class="form-title" for="leaving-day">Дата Выезда</label>
+                <input class="field field-date" type="text" name="date" id="leaving-day" placeholder="Введите дату выезда">
+              </div>
+              <div class="form-box adults-children">
+                <label class="form-title" for="amount-adults">Взрослые:</label>
+                <div class="column">
+                  <input class="field field-people" type="number" name="amount" id="amount-adults" min="1" max="50" step="1">
+                  <label class="form-title-two" for="amount-adults">Дети:</label>
+                  <input class="field field-people-two" type="number" name="amount" id="amount-child" min="1" max="50" step="1">
+                </div>
+              </div>
+          </form>
+            <button class="auth-form-button" type="submit">Найти</button>
+          </section>
+        </div>
       </div>
   </body>
 </html>
