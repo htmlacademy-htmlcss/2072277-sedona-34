@@ -365,6 +365,7 @@ body {
 
 .main-index {
   background-image: url("../images/index_main/index-background.jpg");
+  background-color: #FFFFFF;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -384,7 +385,7 @@ body {
   color: white;
 }
 
-.blue_square-1 h3 {
+.blue_square-1 h2 {
   color: white;
 }
 
@@ -392,11 +393,11 @@ body {
   color: white;
 }
 
-.blue_square-2 h3 {
+.blue_square-2 h2 {
   color: white;
 }
 
-.advantages h3 {
+.advantages h2 {
   padding: 0;
   margin: 0;
   font-weight: 700;
@@ -464,6 +465,7 @@ body {
 
 .index-subscribe {
   background-image: url("../images/index_main/image_subscribe_background.jpg");
+  background-color: #FFFFFF;
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 411px;
@@ -547,9 +549,9 @@ body {
 
 .main-inner {
   background-image: url("..//images/catalog/catalog-background-blur.jpg");
+  background-color: #FFFFFF;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: white;
 }
 
 .main-inner h1 {
@@ -1117,11 +1119,11 @@ body {
 }
 
 .form-box {
-    margin: 0;
-    margin-bottom: 40px;
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    align-items: center;
+  margin: 0;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  align-items: center;
 }
 
 .arriving-date {
