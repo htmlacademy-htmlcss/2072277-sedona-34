@@ -542,9 +542,9 @@ body {
   padding: 0;
   width: 115px;
   height: 33px;
-  padding-top: 50px;
-  padding-left: 50px;
-  margin-left: auto;
+  margin-left: 42px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .main-inner {
@@ -1065,7 +1065,6 @@ body {
   color: white;
   text-transform: uppercase;
 }
-
 
 .modal-container {
   position: fixed;
